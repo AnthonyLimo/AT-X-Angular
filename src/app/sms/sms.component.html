@@ -1,0 +1,23 @@
+<h1>Africa's Talking X Devfest RV</h1>
+
+<form>
+  
+  <h5 *ngIf="success">SMS Sent!</h5>
+
+  <label>
+    Number:
+    <input type="number" formControlName="number">
+    <div *ngIf="submitted && messageForm.controls.number.errors" class="error">
+      <div *ngIf="messageForm.controls.number.errors.required">You need to enter your number</div>
+    </div>
+  </label>
+
+  <label>
+    Message:
+    <input type="text" formControllerName="message">
+    <div *ngIf="submitted && messageForm.controls.message.errors" class="error">
+      <div *ngIf="messageForm.controls.number.errors.required">You need to enter a message</div>
+    </div>
+  </label>
+
+</form>
