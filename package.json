@@ -46,5 +46,18 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "^3.1.6"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyLimo/AT-X-Angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyLimo/AT-X-Angular/issues"
+  },
+  "homepage": "https://github.com/AnthonyLimo/AT-X-Angular#readme"
 }
